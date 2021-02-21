@@ -1,0 +1,162 @@
+SKills----
+
+ {
+            "id": 1,
+            "skill": ".NetCore",
+            "skillClass": "Red",
+            "skillClassIndex": 0
+        },
+        {
+            "id": 2,
+            "skill": "Django",
+            "skillClass": "blue",
+            "skillClassIndex": 0
+        }
+
+
+Education List -----
+
+ {
+            "id": 1,
+            "educationType": "B.tech",
+            "institutionName": "Priyadarshini",
+            "branch": "computer",
+            "district": "Nellore",
+            "state": "Andhra Pradesh",
+            "country": "India",
+            "yearOfPassing": 2019,
+            "percentage": 72,
+            "startDate": "2021-02-10",
+            "endDate": "2021-02-12"
+        },
+        {
+            "id": 2,
+            "educationType": "Intermediate",
+            "institutionName": "Sri Chaitanya",
+            "branch": "''",
+            "district": "Nellore",
+            "state": "Andhra Pradesh",
+            "country": "India",
+            "yearOfPassing": 2019,
+            "percentage": 72,
+            "startDate": "2018-02-11",
+            "endDate": "2020-02-11"
+        }
+
+
+
+
+
+Experience ---------------------------------------
+
+
+{
+            "id": 1,
+            "employer": "Mphasis Ltd India",
+            "jobTitle": "Associate Software Engineer",
+            "city": "Pune",
+            "state": "Andhra Pradesh",
+            "country": "India",
+            "jobDescription": "dimpif ifim ifei mddidnienvinvsivsvinsvisevinvnivinvievnvin inivnvinsvnisvnisvnisvnivnivi",
+            "experience": 20,
+            "fromDate": "2019-06-11",
+            "toDate": "2020-02-11"
+        },
+        {
+            "id": 2,
+            "employer": "Infosys Ltd India",
+            "jobTitle": "Associate Systems Engineer",
+            "city": "Banglore",
+            "state": "Andhra Pradesh",
+            "country": "India",
+            "jobDescription": "dimpif ifim ifei mddidnienvinvsivsvinsvisevinvnivinvievnvin inivnvinsvnisvnisvnisvnivnivi",
+            "experience": 20,
+            "fromDate": "2019-06-11",
+            "toDate": "2020-02-11"
+        },
+
+
+
+
+
+
+Projects -------------------------------------------------
+
+
+  {
+            "id": 1,
+            "title": "Develop",
+            "description": "asvaevvaevaevsdvsdvsdvdvdvadadv",
+            "link": "svkd vadklvadvkladvnklavnk",
+            "skills": [
+                1
+            ]
+        },
+        {
+            "id": 2,
+            "title": "AST",
+            "description": "asfaqegavaegwegaaeg",
+            "link": "https://github.com/gsrsagar",
+            "skills": [
+                1,
+                2
+            ]
+        }
+
+
+
+
+Personal Details -----------------------------------------
+
+
+
+ {
+            "id": 1,
+            "fullName": "Sagar GuvvaLA",
+            "emailId": "gsr@gmail.com",
+            "contactNo": "+91 9494744280",
+            "district": "Nellore",
+            "state": "Andhra Pradesh",
+            "country": "India",
+            "githubProfile": "https://github.com/gsrsagar",
+            "linkedInProfile": "https:\" \"",
+            "codingProfile": "https://"
+        },
+        {
+            "id": 2,
+            "fullName": "ledger Swami",
+            "emailId": "ledger@gmail.com",
+            "contactNo": "+91 9494744281",
+            "district": "Nellore",
+            "state": "Andhra Pradesh",
+            "country": "India",
+            "githubProfile": "https://github.com/gsrsagar",
+            "linkedInProfile": "https:\" \"",
+            "codingProfile": "https://"
+        },
+
+
+
+
+ALl Resumes ----------------------------------------------------------
+
+
+
+{
+    "Details": [
+        {
+            "id": 1,
+            "personalDetails": 1,
+            "careerObjective": 1,
+            "education": [
+                1
+            ],
+            "skills": [
+                1
+            ],
+            "experience": [
+                1
+            ]
+        }
+    ]
+}
