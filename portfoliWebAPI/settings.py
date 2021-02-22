@@ -157,9 +157,9 @@ SITE_ID = 1
 
 LOGIN_REDIRECT_URL = '/'
 
-STATIC_URL = 'static/'
+# STATIC_URL = 'static/'
 
-STATIC_ROOT = 'staticfiles'
+# STATIC_ROOT = 'staticfiles'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
@@ -180,6 +180,6 @@ CORS_ORIGIN_REGEX_WHITELIST = [
 ]
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 django_heroku.settings(locals())
