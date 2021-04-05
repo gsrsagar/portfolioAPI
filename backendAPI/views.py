@@ -157,6 +157,7 @@ def send_otp_key(request):
 @permission_classes((AllowAny,))
 def generate_otp_sign_up(request):
     email = request.data.get('email')
+    print(email)
     user={}
     try:
         user = User.objects.get(email=email)
@@ -168,6 +169,7 @@ def generate_otp_sign_up(request):
         print("")
     if not user:
         random_key = random.randint(198134, 999999)
+        print(random_key)
         try:
             if email:
                 model = OTPVerify(email=email, otpKey=random_key, isVerified=False)
@@ -178,15 +180,16 @@ def generate_otp_sign_up(request):
                            f'Please use the above key to Create Account.'
                 email_from = email_Id_developer
                 recipient_list = email
-                send_mail(subject, messsage, email_from, [recipient_list], fail_silently=False)
+                send_mail(subject, messsage, email_from, [recipient_list], fail_silently=True)
+                print(email_from)
                 return Response(
                     {"Status": "successful", "Message": "OTP Sent to registered Mail Id", "frontcopykey": random_key},
                     status=status.HTTP_201_CREATED)
             else:
                 return Response({"Status": "Failed", "Message": "OTP Generation UnSuccessful"},
                                 status=status.HTTP_400_BAD_REQUEST)
-        except not email:
-            return Response({"Status": data.errors, "Message": "Failed"}, status=status.HTTP_400_BAD_REQUEST)
+        except:
+            return Response({"Status": "Failed", "Message": "Failed"}, status=status.HTTP_400_BAD_REQUEST)
 
 
 @api_view(['POST'])
